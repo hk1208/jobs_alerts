@@ -1,0 +1,21 @@
+{
+  "name": "jss",
+  "version": "1.0.0",
+  "description": "this is the best package ever built by someone",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "awesome"
+  ],
+  "author": "himanshu",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.4",
+    "pug": "^3.0.2",
+    "slugify": "^1.6.6"
+  }
+}
