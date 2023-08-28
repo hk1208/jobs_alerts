@@ -10,31 +10,26 @@
   </head>
 
   <body>
-    <nav class="navigation max-width-1 m-auto">
+    {{!-- <nav class="navigation max-width-1 m-auto">
       <div class="nav-left">
-        <a href="/index.html"><img src="img/logo.jpg" alt="Jobs&Alert" /></a>
+        <a href="/"><img src="img/logo.jpg" alt="Jobs&Alert" /></a>
         <ul>
           <li><a href="/">Home</a></li>
-          <li><a href="/easeurstudies.html">Sources</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="/contact">Contact</a></li>
         </ul>
       </div>
       <div class="nav-right">
-        <!-- <div class="login" >login/signup</div> -->
-        <form action="/search.html" method="get">
-          <input
-            class="form-input"
-            type="text"
-            name=""
-            placeholder="Job Search"
-          />
-          <button class="btn">Search</button>
-        </form>
+        <form action="/search" method="get">
+        <input class="form-input" type="text"  name="query"  placeholder="Job Search" />
+        <button class="btn">Search</button>
+      </form>
       </div>
-    </nav>
-    <div class="content max-width-1 m-auto">
+    </nav> --}}
+    {{>navbar}}
+    <!-- <div class="content max-width-1 m-auto">
       <div class="content-left">
-        <h1>Jobs & Internships Alert</h1>
+        <h1>Jobs&Alert</h1>
         <p>
           The website in question is a comprehensive platform where job
           vacancies and internship opportunities are constantly updated. It
@@ -50,12 +45,14 @@
       <div class="content-right">
         <img src="img/nav1.jpg" alt="img" />
       </div>
-    </div>
+    </div> -->
     <!-- for line  -->
-    <div class="max-width-1 m-auto"><hr /></div>
+    <!-- <div class="max-width-1 m-auto"><hr /></div>  -->
+     <h2 class="h2-search-res">Search Results for Django</h2>
     <div class="home-articles max-width-1 m-auto">
-      <h1>Apply For Jobs</h1>
-
+      {{!-- <h1>Apply For Jobs</h1> --}}
+      
+          <div class="job-display" >
       <div class="home-article">
         <div class="home-article-img">
           <img src="img/microsoft.png" alt="article" />
@@ -168,9 +165,129 @@
           >
         </div>
       </div>
+      </div>
+
+
+     
+    <div class="job-display" >
+      <div class="home-article">
+        <div class="home-article-img">
+          <img src="img/microsoft.png" alt="article" />
+        </div>
+        <div class="home-article-content font1">
+          <h3>Company Name: Microsoft</h3>
+          <span>position : Research-Intern</span>
+          <br />
+          <span>Batch : 2023,2024 .</span>
+          <br />
+          <!-- <p>Position: Research internship
+                    Batch: 2023,2024
+                    Location- Bangalore(Upto 50% Work From Home)
+                    Job id-1582723 </p> -->
+          <span>Stipend: 1 Lacs per month </span>
+          <br />
+          <a
+            href="https://jobs.careers.microsoft.com/us/en/job/1582723/Research-Intern"
+            target="_blank"><button class="btn">Apply</button></a
+          >
+        </div>
+      </div>
+
+      <div class="home-article">
+        <div class="home-article-img">
+          <img src="img/microsoft.png" alt="article" />
+        </div>
+        <div class="home-article-content font1">
+          <h3>Company Name: Microsoft</h3>
+          <span>position : Research-Intern</span>
+          <br />
+          <span>Batch : 2023,2024 .</span>
+          <br />
+          <!-- <p>Position: Research internship
+                    Batch: 2023,2024
+                    Location- Bangalore(Upto 50% Work From Home)
+                    Job id-1582723 </p> -->
+          <span>Stipend: 1 Lacs per month </span>
+          <br />
+          <a
+            href="https://jobs.careers.microsoft.com/us/en/job/1582723/Research-Intern"
+            target="_blank" ><button class="btn">Apply</button></a
+          >
+        </div>
+      </div>
+
+      <div class="home-article">
+        <div class="home-article-img">
+          <img src="img/microsoft.png" alt="article" />
+        </div>
+        <div class="home-article-content font1">
+          <h3>Company Name: Microsoft</h3>
+          <span>position : Research-Intern</span>
+          <br />
+          <span>Batch : 2023,2024 .</span>
+          <br />
+          <!-- <p>Position: Research internship
+                    Batch: 2023,2024
+                    Location- Bangalore(Upto 50% Work From Home)
+                    Job id-1582723 </p> -->
+          <span>Stipend: 1 Lacs per month </span>
+          <br />
+          <a
+            href="https://jobs.careers.microsoft.com/us/en/job/1582723/Research-Intern"
+            target="_blank"><button class="btn">Apply</button></a
+          >
+        </div>
+      </div>
+
+      <div class="home-article">
+        <div class="home-article-img">
+          <img src="img/cleartrip.png" alt="article" />
+        </div>
+        <div class="home-article-content font1">
+          <span>position : Research-Intern</span>
+          <br />
+          <span>Batch : 2023,2024 .</span>
+          <br />
+          <!-- <p>Position: Research internship
+                    Batch: 2023,2024
+                    Location- Bangalore(Upto 50% Work From Home)
+                    Job id-1582723 </p> -->
+          <span>Stipend: Not mentioned </span>
+          <br />
+          <a href="https://www.linkedin.com/jobs/view/3656399033"
+          target="_blank"><button class="btn">Apply</button></a
+          >
+        </div>
+      </div>
+
+      <div class="home-article">
+        <div class="home-article-img">
+          <img src="img/article1.jpg" alt="article" />
+        </div>
+        <div class="home-article-content font1">
+          <h3>Company Name: Rahi System</h3>
+          <span>position : Research-Intern</span>
+          <br />
+          <span>Batch : 2022 before .</span>
+          <br />
+          <!-- <p>Position: Research internship
+                    Batch: 2023,2024
+                    Location- Bangalore(Upto 50% Work From Home)
+                    Job id-1582723 </p> -->
+          <span>Stipend: 50 k per month </span>
+          <br />
+          <a
+            href="https://rahisystems.zohorecruit.com/recruit/PortalDetail.na?iframe=true&digest=Jv1r84YXt@dkDCy02cyzb3GAUnkE7bVo.a85bxdBEmQ-&jobid=400067000045664520&widgetid=400067000000072311&embedsource=CareerSite"
+            target="_blank"><button class="btn">Apply</button></a
+          >
+        </div>
+      </div>
+      </div>
+
+
+
+
     </div>
-    <div class="footer">
-      <span class="text-small">Copyright © 2023 <a href="/" title="">Hardware Corpus</a></span>
-    </div>
+    {{>footbar}}
   </body>
 </html>

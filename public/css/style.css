@@ -45,6 +45,11 @@
 .nav-left img{
     height: 90px;
 }
+.nav-right
+{
+  display: flex;
+ 
+}
 
 .content {
   margin-top: 15px;
@@ -54,6 +59,7 @@
   padding-top: 9px;
   position: relative;
   margin-bottom: 12px;
+  padding-top: 32px;
  
 }
 
@@ -67,7 +73,7 @@
 } 
 .content-left {
   font-family: var(--font1);
-  /* width: 50%; */
+  width: 100%;
   display: flex;
   /* align-items: center; */
   justify-content: center;
@@ -90,18 +96,22 @@
 }
 
 .home-articles {
+  display: flex;
   background-color:rgb(248, 239, 239);
-  padding-top: 8px;
+  padding-top: 36px;
   margin-top: 12px;
+  
+  
 }
 
 .home-article {
     display: flex;
-    margin: 22px;
+    margin: 20px;
+    padding-left: 160px;
 }
 
 .home-article img{
-    width: 160px;
+    width: 200px;
 }
 
 .home-article-content{
@@ -121,3 +131,89 @@
 .footer a{
     color: #fefcfe;
 }
+
+.about{
+  text-align: center;
+  font-size: 50px;
+  text-decoration: underline;
+}
+/* .about-us-content{
+  font-size: 25px;
+} */
+.ctr{
+  margin-left: 300px;
+}
+.heading-jobs{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+/* about page */
+.about-column{
+  height: 700px;
+}
+
+/* footer */ 
+
+
+ .footer-basic {
+  padding:10px 0;
+  background-color:black;
+  color:white;
+  
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+} 

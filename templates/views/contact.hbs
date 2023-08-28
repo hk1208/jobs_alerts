@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/utlis.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
+    <title>Contact-Us</title>
+</head>
+
+
+<body>
+    {{>navbar}}
+
+ <div class="contact-content font1 max-width-1 m-auto">
+    <div class="max-width-1 m-auto">
+    <div class="ctr">
+        <h2 class="form-box ">Feel Free to Contact Us</h2>
+        </div>
+        <div class="ctr">
+    <form action="/register" method="POST">
+        <div class="contact-form">
+
+
+            <div class="form-box ">
+                <input type="text" class="form-control" placeholder="Enter Your name" aria-label=" name" value=""
+                    name="firstname" />
+            </div>
+       
+
+
+            <div class="form-box">
+                <input type="email" class="form-control" placeholder="email" value="" name="email" />
+            </div>
+     
+
+
+            <div class="form-box ">
+                <input type="text" minlength="10" maxlength="10" name="phone" class="form-control"
+                    placeholder="Your Phone " aria-label="First name" value="" />
+         
+            </div>
+
+
+            <div class="form-box">
+                <textarea cols="30" rows="10" id="exampleFormControlTextarea1" rows="3" placeholder="write your query"
+                    value="" name="query"></textarea>
+            </div>
+
+
+
+            <div class="form-box">
+                <input type="submit" class="btn" value="Register" />
+            </div>
+
+        </div>
+    </form>
+    </div>
+</div>
+</div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+
+{{>footbar}}
+</body>
+
+</html>

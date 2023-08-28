@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/log.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper fadeInDown">
+  <div id="formContent">
+    <!-- Tabs Titles -->
+    {{!-- <h2 class="active"> Sign In </h2> --}}
+    <a href="/login"><h2 class="active"> Sign In </h2></a>
+    {{!-- <h2 class="inactive underlineHover"><a href="../views/signup.hbs"></a>Sign Up </h2> --}}
+
+    <!-- Icon -->
+    <div class="fadeIn first">
+      {{!-- <img src="../../public/css/img/logo.jpg" id="icon" alt="User Icon" /> --}}
+       <img src="img/logo.jpg" id="icon" alt="User Icon" />
+    </div>
+
+    <!-- Login Form -->
+    <form action="/signup" method="post" >
+      <input type="text" id="login" class="fadeIn second" name="firstname" placeholder="First Name">
+      <input type="text" id="login" class="fadeIn second" name="lastname" placeholder="Last Name">
+      <input type="email" id="login" class="fadeIn second" name="email" placeholder="Email Id">
+      <input type="password" id="password" class="fadeIn third" name="password" placeholder="Password">
+      <input type="password" id="password" class="fadeIn third" name="confirmpassword" placeholder="Confirm Password">
+      <input type="submit" class="fadeIn fourth" value="Register">
+    </form>
+
+    <!-- Remind Passowrd -->
+    {{!-- <div id="formFooter">
+      <a class="underlineHover" href="#">Forgot Password?</a>
+    </div> --}}
+
+  </div>
+</div>
+</body>
+</html>
+
+{{!-- https://www.sliderrevolution.com/resources/bootstrap-login-form/ --}}

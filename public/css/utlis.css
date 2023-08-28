@@ -23,6 +23,11 @@
 
 .max-width-1{
     max-width: 80vw;
+    
+}
+.max-width-1 hr{
+  max-width: 80vw;
+  background-color: black;
 }
 .max-width-2{
     max-width: 60vw;
@@ -30,19 +35,28 @@
 
 .m-auto{
     margin: auto;
+   
+}
+
+.heading-content{
+  font-size: 18px;
 }
 
 
-
 .btn{
-    padding: 0px 14px;
-    padding-top: 3px;
-    border: 2px solid black;
-    border-radius: 4px;
-    font-family: var(--font1);
-    font-size: 14px;
-    cursor: pointer;
+  padding: 0px 14px;
+  padding-top: 3px;
+  border: 2px solid black ;
+  border-radius: 4px;
+  font-family: var(--font1);
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
     transition: all 0.3s ease-in-out;
+    background-color: white;
+    /* line-height: 1.5rem;
+    padding: 0.375rem 0.75rem; */
 }
 
 .btn:hover{
@@ -58,6 +72,8 @@ border: 2px solid black;
 border-radius: 4px;
 margin: 0px 13px;
 font-family: var(--font1);
+/* padding: 0.375rem 0.75rem; */
+/* line-height: 2.0rem; */
 }
 
 .form-box input,textarea{
@@ -65,4 +81,8 @@ font-family: var(--font1);
   padding: 10px 6px;
   margin: 7px 0px;
   border: 2px solid black;
+}
+.h2-search-res{
+text-align: center;
+padding-top: 12px;
 }
